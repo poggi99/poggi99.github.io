@@ -53,36 +53,44 @@
     #facebook {
         background: #3B5998;
         color: white;
-	    opacity: 0.7;
-	     padding: 20px;
+        padding: 20px;
         font-size: 40px;
-        width: 30px;
+        width: 40px;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
     }
-	    #instagram {
+	    #facebook:hover{
+		    opacity:0.6;
+	    }
+
+    #instagram {
         background: #C32A5C;
         color: white;
-		    opacity: 0.7;
-		     padding: 20px;
+        padding: 20px;
         font-size: 40px;
-        width: 30px;
+        width: 40px;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
     }
+	    #instagram:hover{
+		    opacity:0.6;
+	    }
+
     #tripadvisor {
         background: #69D6A1;
         color: black;
-	    opacity: 0.7;
-	     padding: 20px;
+        padding: 20px;
         font-size: 40px;
-        width: 30px;
+        width: 40px;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
     }
+	    #tripadvisor:hover{
+		    opacity:0.6;
+	    }
     </style>
     <!-- JS -->
     <script src="https://enotecavr.000webhostapp.com/wp-includes/js/jquery/jquery.js"></script>
@@ -93,9 +101,9 @@
     <div id="seed-csp4-page">
         <div id="seed-csp4-content">
             <img id='seed-csp4-image' src='https://enotecavr.000webhostapp.com/wp-content/uploads/2020/02/IMG_20200204_132840_589.jpg'>
-	    </div>
-		<div>
-		<p><a href=""></a></p>
+        </div>
+        <div>
+            <p><a href=""></a></p>
             <a href="https://www.facebook.com/gastronomiadellascala" id="facebook" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/gastronomiadellascala/" id="instagram" class="fa fa-instagram"></a>
             <a href="https://www.tripadvisor.it/Restaurant_Review-g187871-d20053376-Reviews-Gastronomia_della_Scala-Verona_Province_of_Verona_Veneto.html" id="tripadvisor" class="fa fa-tripadvisor"></a>
@@ -105,6 +113,6 @@
 		jQuery(document).ready(function($){$.supersized({slides:[ {image : ''} ]});});
 		</script>
 		<![endif]-->
-	    </div>
+    </div>
 
 </html>
